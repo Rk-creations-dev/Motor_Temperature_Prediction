@@ -1,0 +1,56 @@
+motor-temperature-ml/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/
+│   ├── 01_data_understanding.ipynb
+│   ├── 02_eda.ipynb
+│   ├── 03_modeling.ipynb
+│   └── 04_evaluation.ipynb
+│
+├── src/
+│   ├── preprocessing.py
+│   ├── train.py
+│   └── predict.py
+│
+├── models/
+│
+├── app/
+│
+├── requirements.txt
+└── README.md
+
+
+DATA 
+Target - stator_winding
+
+features - 
+ambient
+coolant
+motor_speed
+torque
+i_d
+i_q
+u_d
+u_q
+
+not using initialy 
+pm
+stator_tooth
+stator_yoke
+profile_id
+
+
+| Step               | Question                                  |
+| ------------------ | ----------------------------------------- |
+| `shape/info`       | What is the dataset?                      |
+| missing/duplicates | Is it clean?                              |
+| `describe()`       | Are the values sensible?                  |
+| histograms         | How are variables distributed?            |
+| boxplots           | Are there unusual values?                 |
+| correlation        | Which variables move together?            |
+| scatterplots       | What relationships exist with target?     |
+| profile analysis   | Does the measurement structure matter?    |
+| feature analysis   | What should we eventually feed the model? |
