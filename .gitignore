@@ -1,5 +1,2 @@
 file_patern.txt
 data/data_set.csv
-notebooks/model_r2_comparison.png
-notebooks/model_error_comparison.png
-notebooks/linear_regression_actual_vs_predicted.png
