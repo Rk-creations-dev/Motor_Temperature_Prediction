@@ -1,4 +1,4 @@
-Motor Temperature Monitoring System# Motor Stator Winding Temperature Prediction
+# Motor Stator Winding Temperature Prediction
 
 A machine learning project that predicts the stator winding temperature
 of a Permanent Magnet Synchronous Motor (PMSM) using its operating
