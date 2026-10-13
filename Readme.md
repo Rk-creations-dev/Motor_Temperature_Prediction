@@ -182,7 +182,7 @@ retained as the interpretable baseline.
 These results describe performance on held-out profiles from the
 dataset and do not establish performance on other motor designs or
 industrial systems.
-T## Getting Started
+## Getting Started
 
 ### Installation
 
